@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         "        homeButton.click();" +
                         "        console.log('Home button clicked to keep session active');" +
                         "    }" +
-                        "}, 300000);" +
+                        "}, 420000);" +
                         "})();");
             }
         });
