@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         webView = findViewById(R.id.webView);
 
-        // Configure WebView settings
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
@@ -41,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
 
-                // Check if this is the OTP page by looking for the OTP input element
                 String checkForOtpField = "javascript:(function() {" +
                         "var otpInput = document.getElementById('otp');" +
                         "return otpInput != null;" +
@@ -56,8 +54,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
             }
-
-            // Your existing code for error handling, etc.
         });
 
         // Register OTP receiver
@@ -82,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             IntentFilter filter = new IntentFilter(NotificationService.OTP_INTENT);
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                registerReceiver(otpReceiver, filter, Context.RECEIVER_EXPORTED); // FIX: Explicit export required
+                registerReceiver(otpReceiver, filter, Context.RECEIVER_EXPORTED);
             } else {
                 registerReceiver(otpReceiver, filter);
             }
@@ -95,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
     private void fillOtpInWebView(String otp) {
         Log.d("MainActivity", "Attempting to fill OTP and click validate: " + otp);
 
-        // JavaScript to enter OTP and click "Validate OTP"
         String javascript = "javascript:(function() {" +
                 "console.log('OTP Auto-fill script running');" +
                 "var otpInput = document.getElementById('otp');" +
