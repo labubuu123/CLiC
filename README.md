@@ -2,7 +2,7 @@
 
 ## 🚀 Introduction
 
-Are you an MMU student struggling to log into CLiC? Tired of manually entering your student ID, password, and retrieving OTP codes from your Outlook email? Sometimes, mistyping the OTP can waste valuable time.
+Hello, I am an Engineering student. Are you an MMU student struggling to log into CLiC? Tired of manually entering your student ID, password, and retrieving OTP codes from your Outlook email? Sometimes, mistyping the OTP can waste valuable time.
 
 Introducing **CLiC - MMU**, a solution designed specifically for MMU students to streamline the login process!
 
@@ -102,6 +102,33 @@ https://github.com/user-attachments/assets/91992999-2772-4aac-b7bc-3b6da563423a
 7. **Internet connection is required** to use the app as it loads the CLiC website.
 
 8. **If the app does not detect OTPs**, check that your Outlook notifications are enabled on your device.
+   
+
+## ❓ Frequently Asked Questions (FAQs)
+
+1. **Does this app store my student ID and password?**
+
+   No, this app does not store or save any login credentials. It simply automates the login process securely.
+
+2. **Will this app work on iPhones?**
+   
+   No, this app is only available for Android devices.
+
+3. **Why is the app not detecting my OTP?**
+
+   * Ensure that you have granted **Notification Access** to the app.
+   
+   * Make sure your Outlook email notifications are enabled.
+   
+   * Restart the app and try again.
+
+4. **What happens if I press the back button by mistake?**
+   
+   The app will show a confirmation prompt before exiting to prevent accidental logouts.
+
+5. **Can I use this app on multiple devices?**
+   
+   Yes, but you will need to reinstall the app and grant permissions again on each device.
    
 
 ## 🛠 Troubleshooting
