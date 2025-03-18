@@ -57,7 +57,7 @@ Introducing **CLiC - MMU**, a solution designed specifically for MMU students to
 
 3. When you receive the OTP via email, the app will **auto-fill and submi**t it for you!
 
-![WhatsApp Image 2025-03-19 at 01 20 00_9a3315bd](https://github.com/user-attachments/assets/e0137d58-69f0-4054-9353-0136e4c61254)
+![WhatsApp Image 2025-03-19 at 02 10 17_5de3043f](https://github.com/user-attachments/assets/1c78dd11-b069-4ed9-9632-2c3550997fae)
 
 
 4. You are now successfully logged into the **CLiC main page.** 🎉
