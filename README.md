@@ -10,13 +10,9 @@ Introducing **CLiC - MMU**, a solution designed specifically for MMU students to
 
 * 🌐 Loads the CLiC website inside the app.
 
-* 🔐 Automatically detects and fills in OTP codes.
-
 * 📩 Reads OTP from notifications and submits it.
 
 * 🎧 Runs in the background to listen for OTPs.
-
-* 🔔 Asks for permission to read notifications.
 
 * ❌ Prevents accidental exits during login.
 
