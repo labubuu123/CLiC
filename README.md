@@ -15,4 +15,4 @@ App Features:
 Steps to Install and Use the App (Demo using HONOR Phone)
 ⚠ Note: This app works only on Android phones.
 
-1. Download the APK file.
+1. Download the APK file. https://fileport.io/Tp6buQcPXgRc
