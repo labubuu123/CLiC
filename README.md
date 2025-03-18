@@ -93,6 +93,9 @@ https://github.com/user-attachments/assets/91992999-2772-4aac-b7bc-3b6da563423a
 
 3. **For Android 15 users**, please open **App Info > Allow restricted settings** and enable it.
 
+![WhatsApp Image 2025-03-19 at 02 04 29_0473cd04](https://github.com/user-attachments/assets/ba6511c8-6b13-4a40-a231-f1bb97f67f3f)
+
+
 4. **If you experience lagging or the app gets stuck**, clear the app from the background and restart it.
 
 5. **This is a newly developed app**, so there may be some bugs or crashes. Please understand that we are working to improve it.
