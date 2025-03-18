@@ -33,6 +33,9 @@ Introducing **CLiC - MMU**, a solution designed specifically for MMU students to
 
 4. If prompted, allow **installation from unknown sources**.
 
+![WhatsApp Image 2025-03-19 at 02 52 11_51216ecb](https://github.com/user-attachments/assets/94734bf9-4cf1-429a-bbc8-28d8a0e7dfe9)
+
+
 ## 2️⃣ Grant Necessary Permissions
 
 1. Open the app after installation.
