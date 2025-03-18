@@ -1,4 +1,4 @@
-CLiC - MMU Login Automation App
+#CLiC - MMU Login Automation App
 
 🚀 Introduction
 
@@ -51,5 +51,3 @@ Enter your student ID and password as usual.
 When you receive the OTP via email, the app will auto-fill and submit it for you!
 
 You are now successfully logged into the CLiC main page. 🎉
-
-
