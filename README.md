@@ -103,10 +103,19 @@ https://github.com/user-attachments/assets/91992999-2772-4aac-b7bc-3b6da563423a
    Yes, but you will need to reinstall the app and grant permissions again on each device.
 
 ## 🛠 Troubleshooting
+❗ **OTP not detected?** Ensure **Notification Access** is enabled in settings.
 
-❗ **If the app fails to detect the OTP**, ensure that **notification access** is enabled in settings.
+❗ **Installation blocked?** Enable **Installation from Unknown Sources** in your phone settings.
 
-❗ **If installation is blocked**, enable **installation from unknown sources** in your phone settings.
+❗ **Permissions greyed out on Android 15?**
+
+   1. Search for **"Special Access"** in settings and enable **CLiC - MMU** under **Notification Access**.
+
+https://github.com/user-attachments/assets/18489eee-e0af-451c-abcc-6746914841b3
+
+   2. Go to **CLiC - MMU** app info and enable **"Allow Restricted Settings"**.
+
+![WhatsApp Image 2025-03-19 at 02 04 29_0473cd04](https://github.com/user-attachments/assets/924ec209-b9d6-4952-908c-11497dfbe81b)
 
 ## 🔒 Privacy & Disclaimer
 
