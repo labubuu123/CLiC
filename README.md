@@ -17,8 +17,10 @@ Introducing **CLiC - MMU**, a solution designed specifically for MMU students to
 * ❌ Prevents accidental exits during login.
 
 ## 📹 Video Demonstration
+Turn up the volume for explanation
 
 https://github.com/user-attachments/assets/7b151102-8ff7-48dd-b7c2-6257c653e2d6
+
 
 ## 📲 Installation & Usage Guide
 
