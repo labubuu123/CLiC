@@ -90,16 +90,21 @@ https://github.com/user-attachments/assets/91992999-2772-4aac-b7bc-3b6da563423a
 ## ❓ Frequently Asked Questions (FAQs)
 
 1. **Does this app store my student ID and password?**
+   
    No, this app does not store or save any login credentials. It simply automates the login process securely.
 2. **Will this app work on iPhones?**
+   
    No, this app is only available for Android devices.
 3. **Why is the app not detecting my OTP?**
+   
    * Ensure that you have granted **Notification Access** to the app.
    * Make sure your Outlook email notifications are enabled.
    * Restart the app and try again.
 4. **What happens if I press the back button by mistake?**
+   
    The app will show a confirmation prompt before exiting to prevent accidental logouts.
 5. **Can I use this app on multiple devices?**
+    
    Yes, but you will need to reinstall the app and grant permissions again on each device.
 
 ## 🛠 Troubleshooting
