@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/7b151102-8ff7-48dd-b7c2-6257c653e2d6
 
 ### 1️⃣ Download & Install
 
-1. **Download the APK file**: [Download here](https://fileport.io/Tp6buQcPXgRc)
+1. **Download the APK file**: [Download here](https://fileport.io/2cx7Yma5npCD)
 2. Open the **Files** app and locate the downloaded APK.
 3. Tap on the file to start the installation.
 4. If prompted, allow **installation from unknown sources**.
