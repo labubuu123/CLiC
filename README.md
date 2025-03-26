@@ -151,13 +151,15 @@ https://github.com/user-attachments/assets/8802decc-61a7-4cf8-a731-76418c3906c4
 ## 🛠 Troubleshooting
 ❗ **OTP not detected?** Ensure **Notification Access** is enabled in settings.
 
+❗ **Google Play Protect, can't install?** Go to Play Store > Profile Icon > Play Protect > Setting(top right corner) > Turn Off
+
 ❗ **Installation blocked?** Enable **Installation from Unknown Sources** in your phone settings.
 
 ❗ **Permissions greyed out on Android 15?**
 
    1. Search for **"Special Access"** in settings and enable **CLiC - MMU** under **Notification Access**.
 
-<img src="https://github.com/user-attachments/assets/18489eee-e0af-451c-abcc-6746914841b3" alt="Settings for permissions" width="600" height="auto">
+https://github.com/user-attachments/assets/9de54f2c-8b5e-4a10-84ad-0cf76dc955db
 
    2. Go to **CLiC - MMU** app info and enable **"Allow Restricted Settings"**.
 
@@ -184,6 +186,8 @@ This app is **open-source**, and we welcome any professional or researcher to an
 ## 📧 Support
 
 For any issues or suggestions, feel free to reach out!
+
+---
 
 ## 🤝 Contributing
 
