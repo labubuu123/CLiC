@@ -299,11 +299,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        if (webView != null) {
-            webView.stopLoading();
-            webView.setWebViewClient(null);
-            webView.destroy();
-            webView = null;
+        if (otpReceiver != null) {
+            unregisterReceiver(otpReceiver);
         }
         super.onDestroy();
     }
