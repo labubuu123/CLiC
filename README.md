@@ -89,7 +89,7 @@ Turn up the volume for explanation
 
 4. You are now successfully logged into the **CLiC main page.** 🎉
 
-<img src="https://github.com/user-attachments/assets/75342e77-9877-4a45-91ca-8f3059851f2c" alt="WhatsApp Image 2025-03-19 at 01 20 00" width="600" height="auto">
+<img src="https://github.com/user-attachments/assets/25533579-5b3c-46f1-be93-6858f7bb33b7" alt="WhatsApp Image 2025-03-19 at 01 20 00" width="600" height="auto">
 
 5. To view your **Weekly Schedule**, simply tap the **Weekly Schedule** button!
 
@@ -106,7 +106,7 @@ https://github.com/user-attachments/assets/8802decc-61a7-4cf8-a731-76418c3906c4
 
 2. If you want to sign out, click the triple dot on the top right and select **'Sign Out'**."
 
-<img src="https://github.com/user-attachments/assets/8e7b8dba-03c7-4831-8b4e-6c3d38bcbd38" alt="Sign out screen" width="600" height="auto">
+<img src="https://github.com/user-attachments/assets/7b246afb-4fde-4ccb-bfc9-9085bdeb4101" alt="Sign out screen" width="600" height="auto">
 
 ---
 
