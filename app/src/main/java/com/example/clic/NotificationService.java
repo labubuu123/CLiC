@@ -20,7 +20,7 @@ public class NotificationService extends NotificationListenerService {
 
     @Override
     public void onNotificationPosted(StatusBarNotification sbn) {
-        if (Build.VERSION.SDK_INT >= 35) { // API Level 35
+        if (Build.VERSION.SDK_INT >= 35) {
             if (checkSelfPermission(RECEIVE_SENSITIVE_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
                 Log.w(TAG, "Missing RECEIVE_SENSITIVE_NOTIFICATIONS permission!");
                 return;

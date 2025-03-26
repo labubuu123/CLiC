@@ -42,6 +42,31 @@ public class MainActivity extends AppCompatActivity {
         setupButtons();
         registerOtpReceiver();
 
+        webView.setWebViewClient(new CustomWebViewClient() {
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                super.onPageFinished(view, url);
+
+                String checkLoggedInScript = "javascript:(function() {" +
+                        "var dashboardElement = document.getElementById('MyDashboard') || " +
+                        "document.querySelector('[title=\"My Dashboard\"]') || " +
+                        "document.getElementById('ptlogout') || " +
+                        "document.getElementById('pthdr2signout');" +
+                        "return dashboardElement ? 'logged_in' : 'login_page';" +
+                        "})()";
+
+                webView.evaluateJavascript(checkLoggedInScript, result -> {
+                    if (result != null && result.contains("logged_in")) {
+                        runOnUiThread(() -> {
+                            weeklyScheduleButton.setVisibility(View.VISIBLE);
+                            coursesButton.setVisibility(View.VISIBLE);
+                            buttonContainer.setVisibility(View.VISIBLE);
+                        });
+                    }
+                });
+            }
+        });
+
         webView.loadUrl(CLIC_BASE_URL + "h/?tab=DEFAULT&cmd=login");
     }
 
@@ -201,18 +226,17 @@ public class MainActivity extends AppCompatActivity {
     private class CustomWebViewClient extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            // Block specific logout URLs
             if (url.contains("cmd=logout")) {
                 view.loadUrl("https://clic.mmu.edu.my/psp/csprd/EMPLOYEE/SA/");
                 return true;
             }
             return false;
         }
+
         @Override
         public void onPageFinished(WebView view, String url) {
             super.onPageFinished(view, url);
 
-            // Inject script to intercept and block original logout behavior
             String blockLogoutScript = "javascript:(function() {" +
                     "var signOutLink = document.getElementById('pthdr2signout');" +
                     "if (signOutLink) {" +
@@ -234,20 +258,6 @@ public class MainActivity extends AppCompatActivity {
 
             updateCoursesButtonText(url);
             checkForOtpField();
-        }
-
-        private void injectSignOutHandler() {
-            String javascript = "javascript:(function() {" +
-                    "var signOutLink = document.getElementById('pthdr2signout');" +
-                    "if (signOutLink) {" +
-                    "   signOutLink.addEventListener('click', function(e) {" +
-                    "       e.preventDefault();" +
-                    "       window.JSInterface.onSignOutClicked(signOutLink.href);" +
-                    "   });" +
-                    "}" +
-                    "})()";
-
-            webView.evaluateJavascript(javascript, null);
         }
 
         private void updateCoursesButtonText(String url) {
@@ -289,8 +299,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        if (otpReceiver != null) {
-            unregisterReceiver(otpReceiver);
+        if (webView != null) {
+            webView.stopLoading();
+            webView.setWebViewClient(null);
+            webView.destroy();
+            webView = null;
         }
         super.onDestroy();
     }
