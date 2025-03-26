@@ -6,17 +6,53 @@ Hello, I am an Engineering student. Are you an MMU student struggling to log int
 
 Introducing **CLiC - MMU**, a solution designed specifically for MMU students to streamline the login process!
 
+---
+
 ## 📌 Features
 
-* 🌐 Loads the CLiC website inside the app.
+* 🌐 Loads the **Old CLiC website** inside the app for a smoother login experience.
 * 📩 Reads OTP from notifications and submits it.
 * 🎧 Runs in the background to listen for OTPs.
 * ❌ Prevents accidental exits during login.
+* 🗓 **Weekly Schedule**: A shortcut to instantly view your class schedule.
+* 📚 **ebwise**: Directly navigate to ebwise without needing to search in your browser.
+---
+
+## 📅 Weekly Schedule Button
+
+The **Weekly Schedule** button provides a quick and easy way to view your class schedule without navigating through multiple screens. By simply tapping this button, you will be redirected to the **Weekly Schedule** page within the app, where you can instantly see your upcoming classes, lecture times, and locations.
+
+### How to Use:
+1. After logging into the app, look for the **Weekly Schedule** button on the main screen.
+2. Tap the button to view your schedule for the week.
+
+This feature is designed to save you time and make your daily routine more efficient by providing immediate access to your class timetable.
+
+---
+
+## 📚 ebwise Button
+
+The **ebwise** button allows you to instantly navigate to the **ebwise** system, MMU's central portal for accessing academic resources and administrative functions. Instead of manually searching for EBWise in your browser, this button takes you directly to the site with just one tap.
+
+### How to Use:
+1. After logging into the app, tap the **ebwise** button on the main screen.
+2. You will be redirected to the **ebwise** portal automatically.
+
+This feature helps streamline access to academic resources and reduces the time spent looking for the ebwise login page.
+
+---
 
 ## 📹 Video Demonstration
 Turn up the volume for explanation
 
-https://github.com/user-attachments/assets/7b151102-8ff7-48dd-b7c2-6257c653e2d6
+[Watch Demo](https://github.com/user-attachments/assets/7b151102-8ff7-48dd-b7c2-6257c653e2d6)
+
+<video width="600" height="auto" controls>
+  <source src="https://github.com/user-attachments/assets/7b151102-8ff7-48dd-b7c2-6257c653e2d6" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
 
 ## 📲 Installation & Usage Guide
 
@@ -29,8 +65,7 @@ https://github.com/user-attachments/assets/7b151102-8ff7-48dd-b7c2-6257c653e2d6
 3. Tap on the file to start the installation.
 4. If prompted, allow **installation from unknown sources**.
 
-![WhatsApp Image 2025-03-19 at 02 52 11_51216ecb](https://github.com/user-attachments/assets/94734bf9-4cf1-429a-bbc8-28d8a0e7dfe9)
-
+<img src="https://github.com/user-attachments/assets/94734bf9-4cf1-429a-bbc8-28d8a0e7dfe9" alt="WhatsApp Image 2025-03-19 at 02 52 11" width="600" height="auto">
 
 ### 2️⃣ Grant Necessary Permissions
 
@@ -38,25 +73,27 @@ https://github.com/user-attachments/assets/7b151102-8ff7-48dd-b7c2-6257c653e2d6
 2. The app will request **notification access** to detect OTPs.
 3. Tap **Allow** and enable permission for **CLiC - MMU** in settings.
 
-![WhatsApp Image 2025-03-19 at 01 15 22_c0a4ba64](https://github.com/user-attachments/assets/a8e8688e-4703-4cba-8114-c5a087571878)
-
-![WhatsApp Image 2025-03-19 at 01 15 23_a7f08cb3](https://github.com/user-attachments/assets/e5558740-cc34-4327-99dc-ddc4f537a8ed)
-
+<img src="https://github.com/user-attachments/assets/a8e8688e-4703-4cba-8114-c5a087571878" alt="WhatsApp Image 2025-03-19 at 01 15 22" width="600" height="auto">
+<img src="https://github.com/user-attachments/assets/e5558740-cc34-4327-99dc-ddc4f537a8ed" alt="WhatsApp Image 2025-03-19 at 01 15 23" width="600" height="auto">
 
 ### 3️⃣ Using the App
 
-1. The app will load the **CLiC website** inside it.
+1. The app will load the **Old CLiC website** inside it.
 2. Enter your **student ID** and **password** as usual, and sign in.
 
-![WhatsApp Image 2025-03-19 at 01 20 00_89ae3d3f](https://github.com/user-attachments/assets/c3a26edf-8a39-441c-ac0a-77af94593aad)
+<img src="https://github.com/user-attachments/assets/c3a26edf-8a39-441c-ac0a-77af94593aad" alt="WhatsApp Image 2025-03-19 at 01 20 00" width="600" height="auto">
 
 3. When you receive the OTP via email, the app will **auto-fill and submit** it for you!
 
-![WhatsApp Image 2025-03-19 at 02 10 17_5de3043f](https://github.com/user-attachments/assets/1c78dd11-b069-4ed9-9632-2c3550997fae)
+<img src="https://github.com/user-attachments/assets/1c78dd11-b069-4ed9-9632-2c3550997fae" alt="WhatsApp Image 2025-03-19 at 02 10 17" width="600" height="auto">
 
 4. You are now successfully logged into the **CLiC main page.** 🎉
 
-![WhatsApp Image 2025-03-19 at 01 20 00_e46dbcf7](https://github.com/user-attachments/assets/304821b6-8194-4f01-b4da-d1dccf751434)
+<img src="https://github.com/user-attachments/assets/75342e77-9877-4a45-91ca-8f3059851f2c" alt="WhatsApp Image 2025-03-19 at 01 20 00" width="600" height="auto">
+
+5. To view your **Weekly Schedule**, simply tap the **Weekly Schedule** button!
+
+6. To navigate to **ebwise**, tap the **ebwise** button, and you’ll be redirected to ebwise directly.
 
 
 ## 🔄 Background Process & Exit Prevention
@@ -65,12 +102,13 @@ The app continuously runs in the background to ensure smooth OTP detection. Even
 
 During the login process, the app prevents unintentional exits. If you accidentally press the back button, the app does not immediately close. Instead, it provides a confirmation prompt to ensure you do not accidentally log out.
 
-https://github.com/user-attachments/assets/91992999-2772-4aac-b7bc-3b6da563423a
+https://github.com/user-attachments/assets/8802decc-61a7-4cf8-a731-76418c3906c4
 
 2. If you want to sign out, click the triple dot on the top right and select **'Sign Out'**."
 
-![WhatsApp Image 2025-03-19 at 01 34 46_58a75a84](https://github.com/user-attachments/assets/dae7eee2-0fbc-4bd7-b725-d9560a4f3657)
+<img src="https://github.com/user-attachments/assets/8e7b8dba-03c7-4831-8b4e-6c3d38bcbd38" alt="Sign out screen" width="600" height="auto">
 
+---
 
 ## ⚠ Important Warnings & Limitations
 
@@ -78,14 +116,15 @@ https://github.com/user-attachments/assets/91992999-2772-4aac-b7bc-3b6da563423a
 2. **This app cannot download files**, such as **'View Result'** pages or other CLiC attachments.
 3. **For Android 15 users**, please open **App Info > Allow restricted settings** and enable it.
 
-![WhatsApp Image 2025-03-19 at 02 04 29_0473cd04](https://github.com/user-attachments/assets/ba6511c8-6b13-4a40-a231-f1bb97f67f3f)
+<img src="https://github.com/user-attachments/assets/ba6511c8-6b13-4a40-a231-f1bb97f67f3f" alt="Android settings" width="600" height="auto">
 
 4. **If you experience lagging or the app gets stuck**, clear the app from the background and restart it.
 5. **This is a newly developed app**, so there may be some bugs or crashes. Please understand that we are working to improve it.
 6. **The app requires notification access** to detect OTPs; ensure you grant permission during setup.
 7. **Internet connection is required** to use the app as it loads the CLiC website.
 8. **If the app does not detect OTPs**, check that your Outlook notifications are enabled on your device.
-   
+
+---
 
 ## ❓ Frequently Asked Questions (FAQs)
 
@@ -106,6 +145,8 @@ https://github.com/user-attachments/assets/91992999-2772-4aac-b7bc-3b6da563423a
 5. **Can I use this app on multiple devices?**
     
    Yes, but you will need to reinstall the app and grant permissions again on each device.
+   
+---
 
 ## 🛠 Troubleshooting
 ❗ **OTP not detected?** Ensure **Notification Access** is enabled in settings.
@@ -116,11 +157,13 @@ https://github.com/user-attachments/assets/91992999-2772-4aac-b7bc-3b6da563423a
 
    1. Search for **"Special Access"** in settings and enable **CLiC - MMU** under **Notification Access**.
 
-https://github.com/user-attachments/assets/18489eee-e0af-451c-abcc-6746914841b3
+<img src="https://github.com/user-attachments/assets/18489eee-e0af-451c-abcc-6746914841b3" alt="Settings for permissions" width="600" height="auto">
 
    2. Go to **CLiC - MMU** app info and enable **"Allow Restricted Settings"**.
 
-![WhatsApp Image 2025-03-19 at 02 04 29_0473cd04](https://github.com/user-attachments/assets/924ec209-b9d6-4952-908c-11497dfbe81b)
+<img src="https://github.com/user-attachments/assets/924ec209-b9d6-4952-908c-11497dfbe81b" alt="Allow restricted settings" width="600" height="auto">
+
+---
 
 ## 🔒 Privacy & Disclaimer
 
@@ -130,9 +173,13 @@ https://github.com/user-attachments/assets/18489eee-e0af-451c-abcc-6746914841b3
 * **We do not collect or transmit** any personal or sensitive data.
 * **Disclaimer**: This is a third-party application developed for convenience. We are not affiliated with MMU or its official CLiC system. Use at your own discretion.
 
+---
+
 ## 🛠 Open-Source & Contributions
 
 This app is **open-source**, and we welcome any professional or researcher to analyze, enhance, and improve its functionality. Contributions, suggestions, and modifications are highly encouraged!
+
+---
 
 ## 📧 Support
 
