@@ -8,11 +8,8 @@ import android.service.notification.StatusBarNotification;
 import android.util.Log;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import android.app.NotificationManager;
 import android.content.pm.PackageManager;
-import android.Manifest;
 import android.os.Build;
-import android.content.Context;
 
 public class NotificationService extends NotificationListenerService {
 
@@ -53,7 +50,6 @@ public class NotificationService extends NotificationListenerService {
     }
 
     private String extractBoldOtp(String message) {
-        // Look for exactly 6 digits in the message
         Pattern pattern = Pattern.compile("\\b(\\d{6})\\b");
         Matcher matcher = pattern.matcher(message);
 
